@@ -168,7 +168,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
-                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                          InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
                          ]
                         ]
                     )
@@ -185,7 +185,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
-                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                          InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
                          ]
                         ]
                     )
@@ -254,7 +254,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
-                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                          InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
                          ]
                         ]
                     )
@@ -295,7 +295,7 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
-                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                          InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
                          ]
                         ]
                     )
