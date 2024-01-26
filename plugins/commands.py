@@ -164,8 +164,14 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖱𝖤𝖰𝖴𝖤𝖲𝖳 𝖦𝖱𝖮𝖴𝖯 ⚔️', url=f"https://t.me/Anime_LandXD") ] ] ),
-                    
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
+                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                         ]
+                        ]
+                    )
                 )
             except FloodWait as e:
                 await asyncio.sleep(e.x)
@@ -175,7 +181,14 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖱𝖤𝖰𝖴𝖤𝖲𝖳 𝖦𝖱𝖮𝖴𝖯 ⚔️', url=f"https://t.me/Anime_LandXD") ] ] ),
+                    reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
+                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                         ]
+                        ]
+                    )
                 )
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -237,8 +250,15 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖱𝖤𝖰𝖴𝖤𝖲𝖳 𝖦𝖱𝖮𝖴𝖯 ⚔️', url="https://t.me/Anime_LandXD") ] ] ),
-            )
+                reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
+                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                         ]
+                        ]
+                    )
+                )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = file.file_name
@@ -271,8 +291,15 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖱𝖤𝖰𝖴𝖤𝖲𝖳 𝖦𝖱𝖮𝖴𝖯 ⚔️', url="https://t.me/Anime_LandXD") ] ] ),
-    )
+        reply_markup=InlineKeyboardMarkup(
+                        [
+                         [
+                          InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/Anime_LandXD"),
+                          InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url=f"https://t.me/rzxbots")
+                         ]
+                        ]
+                    )
+                )
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
